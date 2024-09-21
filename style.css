@@ -1,0 +1,59 @@
+.body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.links {
+    display: flex;
+    gap: 40px;
+    flex-direction: row;
+    align-items: center;
+}
+
+.links
+    a {
+        text-decoration: none;
+        color:brown;
+    }
+
+
+.logo {
+    width: 100px;
+
+}
+
+.main {
+    background-color:blanchedalmond;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.eu {
+    width: 200px;
+}
+
+.secao {
+
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    justify-content: space-around;
+    justify-content: center;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    background-color:brown;
+    border-radius: 5px;
+    color: blanchedalmond;
+}
